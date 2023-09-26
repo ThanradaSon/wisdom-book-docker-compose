@@ -12,7 +12,7 @@ pipeline {
           stage('Source') {
                steps {
                     git branch: 'main',
-                        url: 'https://github.com/ladyusa/wisdom-book.git'
+                        url: 'https://github.com/ThanradaSon/wisdom-book-docker-compose'
                }
           }
           stage('Build') {
